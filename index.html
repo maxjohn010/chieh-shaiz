@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chief SHAIZ | Personal Chief Website</title>
+  <link rel="stylesheet" href="3style.css" />
+</head>
+<body>
+  <nav class="navbar">
+      <div class="logo">
+        <img src="https://www.shutterstock.com/image-vector/chef-cook-baker-logo-design-600nw-2074930966.jpg" alt="Chef Logo" />
+        <span>Chief</span>
+      </div>
+  <div class="hamburger" onclick="toggleMenu()">
+    &#9776;
+  </div>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="recipes.html">Recipes</a></li>
+    <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+  <header class="hero">
+   
+    <div class="overlay">
+      <h1>Chief SHAIZ</h1>
+      <p>Crafting Delicious Memories</p>
+      <img src="https://see.fontimg.com/api/rf5/L331Z/ZWIwM2M0ZTA4NDRiNDZmZWFiZjIwOTZiNTIwYjJlMGIub3Rm/VGhlIENoaWVm/the-chief.png?r=fs&h=171&w=2625&fg=000000&bg=FFFFFF&tb=1&s=65" alt="" width="100%" >
+    </div>
+  </header>
+
+  <section class="about">
+    <img src="https://png.pngtree.com/recommend-works/png-clipart/20241213/ourmid/pngtree-experienced-male-master-chef-logo-illustration-png-image_14072793.png" alt="Chef Alex">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I’m Cheif Shaiz , a culinary artist with 1+ years of experience specializing in Italian and fusion cuisine. I bring passion and flavor to every dish.</p>
+    </div>
+  </section>
+
+  <section class="dishes">
+    <h2>Signature Dishes</h2>
+    <div class="gallery">
+      <img src="https://arbuz.com/wp-content/uploads/2019/01/Ground-Beef-Spaghetti-Recipe-18.jpg" alt="Dish 1" />
+      <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141204-05-classic-italian-dishes.jpg?q=w_1110,c_fill" alt="Dish 2" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWtFVGsI7ix4LV4xFcUcAri4oNyI7e9oieJA&s" alt="Dish 3" />
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact / Booking</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message or Booking Request"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Chief Shaiz . All rights reserved.</p>
+    <div class="lang-switcher">
+  <button onclick="setLanguage('en')">English</button>
+  <button onclick="setLanguage('ur')">اردو</button>
+   <button onclick="setLanguage('es')">Español</button>
+  <button onclick="setLanguage('fr')">Français</button>
+</div>
+  </footer>
+<script src="index.js"></script>
+   <script src="lang.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="3script.js"></script>
+</body>
+</html>
